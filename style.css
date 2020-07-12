@@ -1,0 +1,49 @@
+body{
+      margin: 0;
+    background-color: cadetblue !important;
+    height: 100vh;
+}
+img{
+    width:100px;
+    height: 100px;
+}
+nav{
+    
+    display: flex !important;
+    flex-direction: column; 
+    align-items: center;
+    /* background: cadetblue; */
+    width:100%;
+}
+
+.d1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly   ;
+    width: 80%;
+    background-color: lightgrey;
+    border-radius: 10px;
+    margin : 15px 0;
+}
+.bn{
+    /* height: 30px; */
+    width: 40px;
+    margin: 0 10px;
+}
+button{
+  height: 40px;
+ 
+  align-items:baseline;
+}
+p{
+    margin-bottom: 0 !important;
+}
+.plusMinus{
+    display: flex;
+    align-items: center;
+}
+footer{
+    display: flex !important;
+    justify-content: flex-end ;
+}
+button.like:hover, button.like:active {font-size: 150%;}
